@@ -13,11 +13,11 @@ class IRCConnector( threading.Thread):
     def __init__ (self, host, port):
         self.host = host
         self.port = port
-        self.channel = "#stlouis-games"
-        self.identity = "bah"
+        self.channel = settings.botchannel
+        self.identity = settings.botident
         self.realname = "bot against humanity"
         self.hostname = "emmark.info"
-        self.botname = "bah2"
+        self.botname = settings.botnick
         self.allmessages = []
         self.lastmessage = datetime.now()
         self.pulsetime = 500

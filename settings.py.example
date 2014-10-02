@@ -1,2 +1,6 @@
 quitpassword = "password"
 nickservpassword = "nickservpassword"
+
+botident = "bots against humanity"
+botchannel = "#channelname"
+botnick = "bah"
